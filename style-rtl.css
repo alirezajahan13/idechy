@@ -454,7 +454,7 @@ select option {
 }
 
 body {
-  font-family: "yekanbakhweb";
+  font-family: "yekanbakhweb" !important;
   margin: 0;
   direction: rtl !important;
   overflow-x: hidden !important;
