@@ -286,6 +286,7 @@ label {
   font-weight: 500;
   text-align: right;
   width: 100%;
+  font-family: "yekanbakhweb" !important;
 }
 
 input {
@@ -293,6 +294,7 @@ input {
   display: block;
   width: 100%;
   padding: 10px 20px;
+  font-family: "yekanbakhweb" !important;
 }
 input[type=text], input[type=password], input[type=email], input[type=tel], input[type=url] {
   border: none;
@@ -333,6 +335,8 @@ input[type=submit] {
   border-radius: 45px;
   font-size: 14px;
   font-family: "yekanbakhweb" !important;
+  width: -moz-max-content;
+  width: max-content;
 }
 input[type=submit]:hover {
   background-color: #d94905;

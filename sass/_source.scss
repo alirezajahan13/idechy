@@ -195,12 +195,14 @@ label{
     font-weight: 500;
 	text-align: right;
 	width: 100%;
+	font-family: "yekanbakhweb" !important;
 }
 input{
 	margin-top: 5px;
 	display: block;
 	width: 100%;
 	padding: 10px 20px;
+	font-family: "yekanbakhweb" !important;
 	&[type=text] , &[type=password] , &[type=email] , &[type=tel] , &[type=url]{
 		border: none;
 		background-color: transparent;
@@ -227,6 +229,7 @@ input{
 		border-radius: 45px;
 		font-size: 14px;
 		font-family: "yekanbakhweb" !important;
+		width: max-content;
 		&:hover{
 			background-color: darken($mainColor,4%);
 		}
