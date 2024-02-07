@@ -53,7 +53,7 @@
   font-style: normal;
 }
 h1, h2, h3, h4, h5, h6, input, textarea {
-  font-family: yekanbakhweb !important;
+  font-family: "yekanbakhweb" !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -215,7 +215,7 @@ p {
 }
 
 button {
-  font-family: yekanbakhweb !important;
+  font-family: "yekanbakhweb" !important;
   cursor: pointer;
 }
 
@@ -332,7 +332,7 @@ input[type=submit] {
   transition: all 0.4s;
   border-radius: 45px;
   font-size: 14px;
-  font-family: yekanbakhweb;
+  font-family: "yekanbakhweb";
 }
 input[type=submit]:hover {
   background-color: #d94905;
@@ -348,7 +348,6 @@ textarea {
   height: 100px;
   padding: 10px 20px;
   resize: none;
-  border-radius: 25px;
   background-color: transparent;
   border: none;
   color: #28382d;
@@ -381,11 +380,11 @@ select {
   width: 100%;
   padding: 15px 10px;
   border: 1px solid #d5d5d5;
-  font-family: yekanbakhweb;
+  font-family: "yekanbakhweb";
   background-color: transparent;
 }
 select option {
-  font-family: yekanbakhweb;
+  font-family: "yekanbakhweb";
 }
 
 .generalButton {
@@ -400,6 +399,7 @@ select option {
   width: max-content;
   transition: all 0.4s;
   border: 1px solid #28382d;
+  font-weight: 600;
   cursor: pointer;
 }
 .generalButton:hover {
