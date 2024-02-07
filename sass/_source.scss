@@ -204,7 +204,6 @@ input{
 	&[type=text] , &[type=password] , &[type=email] , &[type=tel] , &[type=url]{
 		border: none;
 		background-color: transparent;
-		border-radius: 45px;
 		color: $textColorDarker;
 		font-size: 14px;
 		border-bottom: 1px solid $textColorDarker;
@@ -227,6 +226,7 @@ input{
 		transition: all 0.4s;
 		border-radius: 45px;
 		font-size: 14px;
+		font-family: yekanbakhweb;
 		&:hover{
 			background-color: darken($mainColor,4%);
 		}
@@ -288,6 +288,9 @@ select{
     border: none;
     color: $textColorDarker !important;
     background-color: transparent;
+	&:hover{
+		background-color: unset;
+	}
 }
 .noArrowButton{
 	&::before{
