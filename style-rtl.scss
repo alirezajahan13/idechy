@@ -1,0 +1,19 @@
+@import 'sass/breakpoints';
+@import 'sass/variables';
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'yekanbakhweb';
+    margin: 0;
+}
+.mainView{
+    max-width: 1280px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    @include mvb{
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+}
