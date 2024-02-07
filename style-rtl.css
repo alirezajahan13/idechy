@@ -54,11 +54,19 @@
 }
 * {
   box-sizing: border-box;
+  direction: rtl;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   font-family: "yekanbakhweb";
   margin: 0;
+  direction: rtl !important;
+  overflow-x: hidden !important;
+  width: 100% !important;
+  font-size: 15px;
+  padding: 0;
 }
 
 .mainView {
