@@ -486,4 +486,8 @@ body {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+}
+
+footer path {
+  fill: #ed5005;
 }/*# sourceMappingURL=style-rtl.css.map */
