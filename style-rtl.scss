@@ -27,11 +27,169 @@ body{
         padding-left: 15px !important;
     }
 }
-footer{
-    
-        path ,{
-            // stroke: $mainColor;
-            fill: $mainColor;
+.site-footer{
+    background: rgb(238,246,238);
+    background: linear-gradient(90deg, rgba(238,246,238,1) 0%, rgba(238,225,219,1) 100%);
+        padding: 50px 20px;
+        .site-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            color: white;
+            h3{
+            font-size: 20px;
+            }
+            path,circle{
+                fill: $mainColor;
+            }
+            
+            .row{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin: 10px 0;
+                p{
+                    margin: 0 5px;
+                    max-width: 85%;
+                    font-weight: 400;
+                }
+            } 
+            .classfooterColumn1{
+                width: 30%;
+                
+                @include md {
+                    width: 50%;
+                }
+                @include xs {
+                    width: 100%;
+                } 
+            }
+            .classfooterColumn2{
+                width: 15%;
+                
+                @include md {
+                    width: 50%;
+                }
+                @include xs {
+                    width: 100%;
+                }
+            }
+            .classfooterColumn3{
+                width: 15%;
+                
+                @include md {
+                    width: 50%;
+                }
+                @include xs {
+                    width: 100%;
+                }
+            }
+            .classfooterColumn4{
+                width: 35%;
+                svg{}
+                @include md {
+                    width: 50%;
+                }
+                @include xs {
+                    width: 100%;
+                }
+            }
+            a,p{
+                font-size: 16px;
+                font-weight: 400;
+                color: $textColorLighter;
+            }
+            li{
+                list-style: none;
+                margin: 5px 0;
+                position: relative;
+                padding-right: 12px;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 100%;
+                    background-color: $mainColor;
+                    top: 0;
+                    bottom: 0;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    right: 0;
+                }
+            }
+        .NewslettersTell{
+            border: 1px solid $textColorLighter;
+            border-radius: 10px;
+            max-width: 80%;
+            color: $textColorLighter;
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            p{
+                margin: 0;
+            }
         }
+        input[type="email"] {
+            background-color:transparent ;
+            direction: rtl;
+            padding: 10px 7px;
+            border: none;
+            margin-right: 10px;
+            width: 100%;
+            margin: 0;
+            font-weight: 400;
+            &::placeholder{
+                color: $textColorLighter;
+                opacity: 100%;
+                font-size: 14px;
+                font-weight: 600 !important;
+                font-family: 'yekanbakhweb' !important;
+            }
+        }
+        input:focus {
+            outline: none;
+        }
+        input[type="submit"] {
+            background-color:transparent ;
+            border: none;
+            color: #1e1e1e;
+            font-size: 18px;
+            font-weight: 900;
+            width: 100%;
+            margin-top: 6px;
+            &::placeholder{
+                color: $textColorLighter;
+                font-size: 14px;
+                font-weight: 200;
+                
+            }
+        }
+        
+        .svg{
+            position: relative;
+            svg{
+                position: absolute;
+                top: 15px;
+                left: 23%;
+            }
+        }
+        .bottomFormSvg{
+            svg{
+                margin-left: 15px;
+            }
+        }
+        
+    }
     
+}
+.copyRight{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    a{
+        color: #cdb578;
+    }
+    p{margin: 0;}
 }
