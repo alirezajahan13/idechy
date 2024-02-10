@@ -459,31 +459,44 @@ select option {
   background-color: #eef6ee;
 }
 
-* {
-  box-sizing: border-box;
-  direction: rtl;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-tap-highlight-color: transparent;
+.mainHeaderBack {
+  background-color: transparent;
 }
-
-body {
-  font-family: "yekanbakhweb" !important;
-  margin: 0;
-  direction: rtl !important;
-  overflow-x: hidden !important;
-  width: 100% !important;
-  font-size: 15px;
-  padding: 0;
+.mainHeaderBack .mainHeader {
+  display: flex;
+  align-items: center;
 }
-
-.mainView {
-  max-width: 1280px;
-  margin-left: auto !important;
-  margin-right: auto !important;
+.mainHeaderBack .mainHeader .logoSection {
+  margin-left: 30px;
 }
-@media screen and (max-width: 1280px) {
-  .mainView {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
+@media screen and (max-width: 768px) {
+  .mainHeaderBack .mainHeader .logoSection {
+    margin-left: 0px !important;
   }
-}/*# sourceMappingURL=style-rtl.css.map */
+}
+.mainHeaderBack .mainHeader .logoSection svg {
+  display: block;
+}
+.mainHeaderBack .mainHeader .menuSection {
+  margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+  .mainHeaderBack .mainHeader .menuSection {
+    display: none;
+  }
+}
+.mainHeaderBack .mainHeader .menuSection ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.mainHeaderBack .mainHeader .menuSection ul li::before {
+  content: none;
+}
+.mainHeaderBack .mainHeader .menuSection ul li a {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}/*# sourceMappingURL=additional.css.map */

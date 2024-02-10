@@ -1,0 +1,43 @@
+@import 'sass/variables';
+@import 'sass/breakpoints';
+@import 'sass/source';
+
+.mainHeaderBack{
+    background-color: transparent;
+    .mainHeader{
+        display: flex;
+        align-items: center;
+        .logoSection{
+            margin-left: 30px;
+            @include sm{
+                margin-left: 0px !important;
+            }
+            svg{
+                display: block;
+            }
+        }
+        .menuSection{
+            margin-left: auto;
+            @include sm{
+                display: none;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                li{
+                    &::before{
+                        content: none;
+                    }
+                    a{
+                        padding: 5px 10px;
+                        cursor: pointer;
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

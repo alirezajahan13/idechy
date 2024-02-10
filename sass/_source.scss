@@ -108,7 +108,7 @@ p{
 	font-size: 12px;
 }
 .lowRadius{
-	border-radius: 10px;
+	border-radius: 8px;
 }
 .highRadius{
 	border-radius: 15px;
@@ -226,7 +226,7 @@ input{
 		padding: 15px 25px;
 		cursor: pointer;
 		transition: all 0.4s;
-		border-radius: 45px;
+		border-radius: 8px;
 		font-size: 14px;
 		font-family: "yekanbakhweb" !important;
 		width: max-content;
@@ -272,7 +272,7 @@ select{
 }
 .generalButton{
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 8px;
     position: relative;
     color: $textColorDarker !important;
     padding: 10px 25px;
@@ -285,6 +285,14 @@ select{
 	cursor: pointer;
 	&:hover{
 		background-color: $backColor;
+	}
+}
+.fillButton{
+	background-color: $mainColor;
+	color: #fff !important;
+	border: none;
+	&:hover{
+		background-color: darken($mainColor,5%);
 	}
 }
 .borderNoneButton{
