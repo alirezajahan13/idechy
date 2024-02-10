@@ -4,6 +4,7 @@
 
 .mainHeaderBack{
     background-color: transparent;
+    padding: 10px 0px;
     .mainHeader{
         display: flex;
         align-items: center;
@@ -27,6 +28,8 @@
                 display: flex;
                 align-items: center;
                 li{
+                    padding-right: 0;
+                    padding-left: 8px;
                     &::before{
                         content: none;
                     }
