@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 
+svg {
+  display: block;
+}
+
 .lowMargined {
   margin: 7px 0;
 }
@@ -396,7 +400,7 @@ select option {
   border-radius: 8px;
   position: relative;
   color: #28382d !important;
-  padding: 10px 25px;
+  padding: 7px 15px;
   font-size: 14.5px;
   display: block;
   width: -moz-max-content;
@@ -486,6 +490,91 @@ body {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+}
+
+.introSection {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.sectionOne, .sectionFour {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px 0;
+}
+.sectionOne .sectionOneText, .sectionFour .sectionOneText {
+  width: 40%;
+}
+.sectionOne .sectionOneText span, .sectionFour .sectionOneText span {
+  display: inline-block;
+  font-weight: 400;
+}
+.sectionOne .sectionOneText h1, .sectionFour .sectionOneText h1 {
+  margin: 15px 0;
+}
+.sectionOne .sectionOneText .h1Color, .sectionFour .sectionOneText .h1Color {
+  color: #ed5005;
+  font-weight: 900;
+}
+.sectionOne .sectionOneText .generalButton, .sectionFour .sectionOneText .generalButton {
+  display: inline-block;
+}
+.sectionOne .sectionOneText a, .sectionFour .sectionOneText a {
+  margin-left: 15px;
+}
+.sectionOne .sectionOneText a span, .sectionFour .sectionOneText a span {
+  vertical-align: sub;
+}
+
+.sectionTwo {
+  background: rgb(238, 246, 238);
+  background: linear-gradient(90deg, rgb(238, 246, 238) 0%, rgb(238, 225, 219) 100%);
+  border-radius: 8px;
+  margin: 60px 0;
+}
+.sectionTwo .counterNumbersInner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.sectionTwo .counterNumbersInner div {
+  padding: 15px 0;
+}
+.sectionTwo .counterNumbersInner .counterNumber {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+  color: #cdb578;
+  padding: 0;
+  display: flex;
+}
+.sectionTwo .counterNumbersInner .counterTitle {
+  margin: 0;
+  padding: 0;
+  color: #28382d;
+}
+@media screen and (max-width: 768px) {
+  .sectionTwo .counterNumbersInner .counterNumber {
+    font-size: 30px !important;
+  }
+  .sectionTwo .counterNumbersInner .counterTitle {
+    font-size: 12px !important;
+  }
+}
+
+.sectionThree {
+  text-align: center;
+}
+.sectionThree .services {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionThree .services .service {
+  width: 20%;
 }
 
 .site-footer {
@@ -658,6 +747,9 @@ body {
   position: absolute;
   top: 15px;
   left: 23%;
+}
+.site-footer .site-info .bottomFormSvg {
+  display: flex;
 }
 .site-footer .site-info .bottomFormSvg svg {
   margin-left: 15px;

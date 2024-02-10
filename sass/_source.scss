@@ -25,6 +25,9 @@ h6{
 h1,h2,h3,h4,h5,h6{
 	font-weight: 800;
 }
+svg{
+	display: block;
+}
 .lowMargined{
 	margin: 7px 0;
 }
@@ -275,7 +278,7 @@ select{
     border-radius: 8px;
     position: relative;
     color: $textColorDarker !important;
-    padding: 10px 25px;
+    padding: 7px 15px;
     font-size: 14.5px;
     display: block;
     width: max-content;
