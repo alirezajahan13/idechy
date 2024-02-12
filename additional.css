@@ -510,6 +510,14 @@ select option {
   font-weight: 600;
   font-size: 15px;
 }
+.mainHeaderBack .mainHeader .counselingBtnHeader, .stickyHeaderParent .mainHeader .counselingBtnHeader {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.mainHeaderBack .mainHeader .counselingBtnHeader span > svg, .stickyHeaderParent .mainHeader .counselingBtnHeader span > svg {
+  fill: #fff;
+}
 
 .stickyHeaderParent {
   position: fixed;
