@@ -604,9 +604,16 @@ body {
 .sectionFive .sectionFiveImg {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .sectionFive .sectionFiveImg img {
   width: 48%;
+}
+@media screen and (max-width: 768px) {
+  .sectionFive .sectionFiveImg img {
+    width: 100%;
+    margin: 15px 0;
+  }
 }
 
 .sectionEight .serviceSwiper {
