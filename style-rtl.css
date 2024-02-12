@@ -497,33 +497,33 @@ body {
   padding-bottom: 40px;
 }
 
-.sectionOne, .sectionFour {
+.sectionOne, .sectionFour, .sectionSeven, .sectionTen {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 70px 0;
 }
-.sectionOne .sectionOneText, .sectionFour .sectionOneText {
+.sectionOne .sectionOneText, .sectionFour .sectionOneText, .sectionSeven .sectionOneText, .sectionTen .sectionOneText {
   width: 40%;
 }
-.sectionOne .sectionOneText span, .sectionFour .sectionOneText span {
+.sectionOne .sectionOneText span, .sectionFour .sectionOneText span, .sectionSeven .sectionOneText span, .sectionTen .sectionOneText span {
   display: inline-block;
   font-weight: 400;
 }
-.sectionOne .sectionOneText h1, .sectionFour .sectionOneText h1 {
+.sectionOne .sectionOneText h1, .sectionFour .sectionOneText h1, .sectionSeven .sectionOneText h1, .sectionTen .sectionOneText h1 {
   margin: 15px 0;
 }
-.sectionOne .sectionOneText .h1Color, .sectionFour .sectionOneText .h1Color {
+.sectionOne .sectionOneText .h1Color, .sectionFour .sectionOneText .h1Color, .sectionSeven .sectionOneText .h1Color, .sectionTen .sectionOneText .h1Color {
   color: #ed5005;
   font-weight: 900;
 }
-.sectionOne .sectionOneText .generalButton, .sectionFour .sectionOneText .generalButton {
+.sectionOne .sectionOneText .generalButton, .sectionFour .sectionOneText .generalButton, .sectionSeven .sectionOneText .generalButton, .sectionTen .sectionOneText .generalButton {
   display: inline-block;
 }
-.sectionOne .sectionOneText a, .sectionFour .sectionOneText a {
+.sectionOne .sectionOneText a, .sectionFour .sectionOneText a, .sectionSeven .sectionOneText a, .sectionTen .sectionOneText a {
   margin-left: 15px;
 }
-.sectionOne .sectionOneText a span, .sectionFour .sectionOneText a span {
+.sectionOne .sectionOneText a span, .sectionFour .sectionOneText a span, .sectionSeven .sectionOneText a span, .sectionTen .sectionOneText a span {
   vertical-align: sub;
 }
 
@@ -575,6 +575,25 @@ body {
 }
 .sectionThree .services .service {
   width: 20%;
+}
+
+.sectionFive .sectionFiveImg {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionFive .sectionFiveImg img {
+  width: 48%;
+}
+
+.sectionEight .serviceSwiper {
+  padding-bottom: 50px;
+}
+.sectionEight .mainHomeOurServicesCard {
+  border: 1px solid #bde6bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
 }
 
 .site-footer {
