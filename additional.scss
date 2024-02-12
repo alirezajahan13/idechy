@@ -70,6 +70,7 @@
             border: 1px solid #d5e2d4;
             padding: 0px 40px 20px 40px;
             gap: 15px;
+            margin: 15px 0;
             h3{
                 margin: 0 auto;
                 padding: 15px 20px;
@@ -157,6 +158,10 @@
         .commentsSecGeneral{
             width: 31%;
             position: relative;
+            @include sm{
+                width: 100%;
+                margin-bottom: 80px;
+            }
             .iconSvgBack{
                 position: absolute;
                 right: 45px;
@@ -176,6 +181,7 @@
                     height: 120px;
                     display: block;
                 }
+                
             }
             .commentsContent{
                 padding: 60px 30px 30px;

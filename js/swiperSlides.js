@@ -8,11 +8,11 @@ var swiper = new Swiper(".serviceSwiper", {
     breakpoints: {
       640: {
         slidesPerView: 4,
-        spaceBetween: 20,
+        spaceBetween: 10,
       },
-      768: {
+      980: {
         slidesPerView: 6,
-        spaceBetween: 40,
+        spaceBetween: 10,
       },
     },
   });
