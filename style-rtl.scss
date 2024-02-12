@@ -35,7 +35,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     margin: 70px 0;
+    
     .sectionOneText{
         width: 40%;
         span{
@@ -59,6 +61,12 @@ body{
             }
         }
     }
+    @include sm{
+        .sectionOneText , .sectionOneImg{
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
 }
 .sectionTwo{
     background: rgb(238,246,238);
@@ -69,6 +77,7 @@ body{
         
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         align-items: center;
         width: 90%;
         margin: auto;
@@ -93,6 +102,11 @@ body{
         @include sm{
             .counterNumber{
                 font-size: 30px !important;
+                justify-content: center;
+            }
+            .counterItem{
+                width: 50%;
+                text-align: center;
             }
             .counterTitle{
                 font-size: 12px !important;
@@ -105,8 +119,15 @@ body{
     .services{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         .service{
             width: 20%;
+            @include sm{
+                width: 47%;
+            }
+            @include xs{
+                width: 100%;
+            }
         }
     }
 }

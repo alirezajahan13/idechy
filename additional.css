@@ -538,6 +538,7 @@ select option {
   border: 1px solid #d5e2d4;
   padding: 0px 40px 20px 40px;
   gap: 15px;
+  margin: 15px 0;
 }
 .sectionSix .packagesWebsiteSecParent .packageWebsGeneral h3 {
   margin: 0 auto;
@@ -617,6 +618,12 @@ select option {
 .sectionNine .commentsSecParent .commentsSecGeneral {
   width: 31%;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .sectionNine .commentsSecParent .commentsSecGeneral {
+    width: 100%;
+    margin-bottom: 80px;
+  }
 }
 .sectionNine .commentsSecParent .commentsSecGeneral .iconSvgBack {
   position: absolute;

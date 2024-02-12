@@ -501,6 +501,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin: 70px 0;
 }
 .sectionOne .sectionOneText, .sectionFour .sectionOneText, .sectionSeven .sectionOneText, .sectionTen .sectionOneText {
@@ -526,6 +527,12 @@ body {
 .sectionOne .sectionOneText a span, .sectionFour .sectionOneText a span, .sectionSeven .sectionOneText a span, .sectionTen .sectionOneText a span {
   vertical-align: sub;
 }
+@media screen and (max-width: 768px) {
+  .sectionOne .sectionOneText, .sectionOne .sectionOneImg, .sectionFour .sectionOneText, .sectionFour .sectionOneImg, .sectionSeven .sectionOneText, .sectionSeven .sectionOneImg, .sectionTen .sectionOneText, .sectionTen .sectionOneImg {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
 
 .sectionTwo {
   background: rgb(238, 246, 238);
@@ -536,6 +543,7 @@ body {
 .sectionTwo .counterNumbersInner {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   width: 90%;
   margin: auto;
@@ -560,6 +568,11 @@ body {
 @media screen and (max-width: 768px) {
   .sectionTwo .counterNumbersInner .counterNumber {
     font-size: 30px !important;
+    justify-content: center;
+  }
+  .sectionTwo .counterNumbersInner .counterItem {
+    width: 50%;
+    text-align: center;
   }
   .sectionTwo .counterNumbersInner .counterTitle {
     font-size: 12px !important;
@@ -572,9 +585,20 @@ body {
 .sectionThree .services {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .sectionThree .services .service {
   width: 20%;
+}
+@media screen and (max-width: 768px) {
+  .sectionThree .services .service {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sectionThree .services .service {
+    width: 100%;
+  }
 }
 
 .sectionFive .sectionFiveImg {
