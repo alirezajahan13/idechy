@@ -27,9 +27,101 @@ body{
         padding-left: 15px !important;
     }
 }
-.site-footer{
+.introSection{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.sectionOne , .sectionFour{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+    .sectionOneText{
+        width: 40%;
+        span{
+            display: inline-block;
+            font-weight: 400;
+        }
+        h1{
+            margin: 15px 0;
+        }
+        .h1Color{
+            color: $mainColor;
+            font-weight: 900;
+        }
+        .generalButton{
+            display: inline-block;
+        }
+        a{
+            margin-left: 15px;
+            span{
+                vertical-align: sub;
+            }
+        }
+    }
+}
+.sectionTwo{
     background: rgb(238,246,238);
     background: linear-gradient(90deg, rgba(238,246,238,1) 0%, rgba(238,225,219,1) 100%);
+    border-radius: 8px;
+    margin: 60px 0;
+    .counterNumbersInner{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        
+        div{
+            padding: 15px 0;
+        }
+        .counterNumber{
+            text-align: center;
+          font-size: 40px;
+          font-weight: 900;
+          margin: 0;
+          color: #cdb578;
+          padding: 0;
+          display: flex;
+        }
+        .counterTitle{
+            margin: 0;
+            padding: 0;
+            color: $textColorDarker;
+        }
+        @include sm{
+            .counterNumber{
+                font-size: 30px !important;
+            }
+            .counterTitle{
+                font-size: 12px !important;
+            }
+          }
+      }
+}
+.sectionThree{
+    text-align: center;
+    .services{
+        display: flex;
+        justify-content: space-between;
+        .service{
+            width: 20%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.site-footer{
+        background: rgb(238,246,238);
+        background: linear-gradient(90deg, rgba(238,246,238,1) 0%, rgba(238,225,219,1) 100%);
         padding: 50px 20px;
         .site-info{
             display: flex;
@@ -176,6 +268,7 @@ body{
             }
         }
         .bottomFormSvg{
+            display: flex;
             svg{
                 margin-left: 15px;
             }
