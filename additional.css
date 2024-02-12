@@ -508,4 +508,86 @@ select option {
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
+}
+
+.sectionSix .packagesWebsiteSecParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d5e2d4;
+  padding: 0px 40px 20px 40px;
+  gap: 15px;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral h3 {
+  margin: 0 auto;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff !important;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 0px 0px 8px 8px;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral .topPrices {
+  text-align: center;
+  font-weight: 600;
+  color: #7d887b;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral .packageWebPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral .packageWebPrice .price {
+  font-size: 38px;
+  font-weight: 700;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral .packageWebPrice .priceSuffix {
+  display: flex;
+  flex-direction: column;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral .packageWebPrice .priceSuffix span {
+  font-size: 13.5px;
+  font-weight: 700;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral .packageWebItems {
+  margin: 0;
+  padding: 0;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsGeneral .linkButtonPackage {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+  margin: auto;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteOne h3 {
+  background-color: #455c46;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteOne .price, .sectionSix .packagesWebsiteSecParent .packageWebsiteOne .priceSuffix > span {
+  color: #455c46;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteTwo h3 {
+  background-color: #ed5005;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteTwo .price, .sectionSix .packagesWebsiteSecParent .packageWebsiteTwo .priceSuffix > span {
+  color: #ed5005;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteThree h3 {
+  background-color: #f3900d;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteThree .price, .sectionSix .packagesWebsiteSecParent .packageWebsiteThree .priceSuffix > span {
+  color: #f3900d;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteFour h3 {
+  background-color: #4c7a4e;
+}
+.sectionSix .packagesWebsiteSecParent .packageWebsiteFour .price, .sectionSix .packagesWebsiteSecParent .packageWebsiteFour .priceSuffix > span {
+  color: #4c7a4e;
 }/*# sourceMappingURL=additional.css.map */
