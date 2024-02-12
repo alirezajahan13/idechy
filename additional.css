@@ -470,6 +470,7 @@ select option {
 .mainHeaderBack .mainHeader, .stickyHeaderParent .mainHeader {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .mainHeaderBack .mainHeader .logoSection, .stickyHeaderParent .mainHeader .logoSection {
   margin-left: 30px;
