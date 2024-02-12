@@ -21,15 +21,18 @@ $(document).ready(function(){
     $('p:empty').remove();
 
     if($("#counterNumbers").length) {
-        let objectCenter = $('#counterNumbers').offset().top + ($('#counterNumbers').outerHeight(true)/2);
-
-        if(objectCenter && functionIsRan==false){
-            stepCounter('#counter-1', 1 , 45 , 1 , 1100);
-            stepCounter('#counter-2', 1 , 420 , 25 , 1100);
-            stepCounter('#counter-3', 1 , 235 , 20 , 1100);
-            stepCounter('#counter-4', 1 , 1410 , 50 , 1100);
-            functionIsRan = true;
-        }
+        // console.log('counter');
+        $(window).scroll(function(){
+            let windowBottom = $(window).scrollTop() + $(window).outerHeight(true);
+            let objectCenter = $('#counterNumbers').offset().top + ($('#counterNumbers').outerHeight(true)/2);
+            if(windowBottom > objectCenter && functionIsRan==false){
+                stepCounter('#counter-1', 1 , 10 , 1 , 800);
+                stepCounter('#counter-2', 1 , 420 , 40 , 1200);
+                stepCounter('#counter-3', 1 , 55 , 5 , 1000);
+                stepCounter('#counter-4', 1 , 410 , 40 , 1200);
+                functionIsRan = true;
+            }
+        });    
     };
 
     $('.searchIcon').click(function(){

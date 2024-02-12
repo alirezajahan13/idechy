@@ -20,19 +20,19 @@ get_header();
     <div class="sectionTwo">
         <div class="counterNumbersInner" id="counterNumbers">
             <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
-                <div class="counterNumber"><span id="counter-1">45</span></div>
+                <div class="counterNumber"><span id="counter-1">10</span></div>
                 <div class="counterTitle">سال تجربه</div>
             </div>
             <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
                 <div class="counterNumber"><span id="counter-2">420</span><span>+</span></div>
-                <div class="counterTitle">پروژه ساختمانی</div>
+                <div class="counterTitle">طراحی سایت</div>
             </div>
             <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
-                <div class="counterNumber"><span id="counter-3">235</span><span>+</span></div>
-                <div class="counterTitle">نصب موفق VRF</div>
+                <div class="counterNumber"><span id="counter-3">55</span><span>+</span></div>
+                <div class="counterTitle">سئو موفق</div>
             </div>
             <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
-                <div class="counterNumber"><span id="counter-4">1410</span><span>+</span></div>
+                <div class="counterNumber"><span id="counter-4">410</span><span>+</span></div>
                 <div class="counterTitle">رضایت مشتری</div>
             </div>
         </div>
@@ -221,6 +221,42 @@ get_header();
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
+    </div>
+    <div class="sectionNine">
+        <div class="introSection">
+            <h2>نظرات مشتریان</h2>
+            <img src="" alt="">
+            <p>مشتریان ما درباره ایده چی چه می گویند؟</p>
+        </div>
+        <div class="commentsSecParent highMargined">
+            <div class="commentsSectionOne commentsSecGeneral lightbg lowRadius">
+                <span class="iconSvgBack"><svg width="40" height="40" fill="#455c46" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M334.125 256h78.125v62.5c0 34.473-28.027 62.5-62.5 62.5h-7.812a23.382 23.382 0 0 0-23.438 23.438v46.875a23.382 23.382 0 0 0 23.438 23.438h7.812c86.328 0 156.25-69.922 156.25-156.25V84.125c0-25.879-20.996-46.875-46.875-46.875h-125c-25.879 0-46.875 20.996-46.875 46.875v125c0 25.879 20.996 46.875 46.875 46.875zm-281.25 0H131v62.5c0 34.473-28.027 62.5-62.5 62.5h-7.812a23.382 23.382 0 0 0-23.438 23.438v46.875a23.382 23.382 0 0 0 23.438 23.438H68.5c86.328 0 156.25-69.922 156.25-156.25V84.125c0-25.879-20.996-46.875-46.875-46.875h-125C26.996 37.25 6 58.246 6 84.125v125C6 235.004 26.996 256 52.875 256z" class="color000 svgShape"/></svg></span>
+                <div class="iamgeUsers"><img class="commentsSecImg" src="<?php echo get_template_directory_uri() ?>/img/bob.png" alt=""></div>
+                <div class="commentsContent">
+                    <p class="nameUsers centeredText">بابک اسفراینی</p>
+                    <p class="postionUsers centeredText">آشپز رستوران آقای خشایار</p>
+                    <p class="commentUsers">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                </div>
+            </div>
+            <div class="commentsSectionTwo commentsSecGeneral lightbg lowRadius">
+                <span class="iconSvgBack"><svg width="40" height="40" fill="#455c46" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M334.125 256h78.125v62.5c0 34.473-28.027 62.5-62.5 62.5h-7.812a23.382 23.382 0 0 0-23.438 23.438v46.875a23.382 23.382 0 0 0 23.438 23.438h7.812c86.328 0 156.25-69.922 156.25-156.25V84.125c0-25.879-20.996-46.875-46.875-46.875h-125c-25.879 0-46.875 20.996-46.875 46.875v125c0 25.879 20.996 46.875 46.875 46.875zm-281.25 0H131v62.5c0 34.473-28.027 62.5-62.5 62.5h-7.812a23.382 23.382 0 0 0-23.438 23.438v46.875a23.382 23.382 0 0 0 23.438 23.438H68.5c86.328 0 156.25-69.922 156.25-156.25V84.125c0-25.879-20.996-46.875-46.875-46.875h-125C26.996 37.25 6 58.246 6 84.125v125C6 235.004 26.996 256 52.875 256z" class="color000 svgShape"/></svg></span>
+                <div class="iamgeUsers"><img class="commentsSecImg" src="<?php echo get_template_directory_uri() ?>/img/patrick.png" alt=""></div>
+                <div class="commentsContent">
+                    <p class="nameUsers centeredText">پوریا ستاری</p>
+                    <p class="postionUsers centeredText">کمک آشپز رستوران آقای خشایار</p>
+                    <p class="commentUsers">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                </div>
+            </div>
+            <div class="commentsSectionThree commentsSecGeneral lightbg lowRadius">
+                <span class="iconSvgBack"><svg width="40" height="40" fill="#455c46" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M334.125 256h78.125v62.5c0 34.473-28.027 62.5-62.5 62.5h-7.812a23.382 23.382 0 0 0-23.438 23.438v46.875a23.382 23.382 0 0 0 23.438 23.438h7.812c86.328 0 156.25-69.922 156.25-156.25V84.125c0-25.879-20.996-46.875-46.875-46.875h-125c-25.879 0-46.875 20.996-46.875 46.875v125c0 25.879 20.996 46.875 46.875 46.875zm-281.25 0H131v62.5c0 34.473-28.027 62.5-62.5 62.5h-7.812a23.382 23.382 0 0 0-23.438 23.438v46.875a23.382 23.382 0 0 0 23.438 23.438H68.5c86.328 0 156.25-69.922 156.25-156.25V84.125c0-25.879-20.996-46.875-46.875-46.875h-125C26.996 37.25 6 58.246 6 84.125v125C6 235.004 26.996 256 52.875 256z" class="color000 svgShape"/></svg></span>
+                <div class="iamgeUsers"><img class="commentsSecImg" src="<?php echo get_template_directory_uri() ?>/img/sq.png" alt=""></div>
+                <div class="commentsContent">
+                    <p class="nameUsers centeredText">جورجیو کیلینی</p>
+                    <p class="postionUsers centeredText">بازیکن بازنشسته تیم یوونتوس ایتالیا</p>
+                    <p class="commentUsers">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="sectionTen">
         <div class="sectionOneText">

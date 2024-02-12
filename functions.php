@@ -141,8 +141,10 @@ function idechy_scripts() {
 	wp_enqueue_style( 'idechy-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'idechy-style', 'rtl', 'replace' );
 	wp_enqueue_style( 'swiper-style', get_template_directory_uri().'/swiper/swiper-bundle.min.css', array(), _S_VERSION );wp_enqueue_style( 'additional-style', get_template_directory_uri().'/additional.css', array(), _S_VERSION );
+	wp_enqueue_script('jquery');
 	wp_enqueue_script( 'idechy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'home', get_template_directory_uri() . '/js/home.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'headercontrol', get_template_directory_uri() . '/js/headercontrol.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'swiper', get_template_directory_uri() . '/swiper/swiper-bundle.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'idechy-swiperSildes', get_template_directory_uri() . '/js/swiperSlides.js', array(), _S_VERSION, true );
 	

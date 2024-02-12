@@ -2,7 +2,7 @@
 @import 'sass/breakpoints';
 @import 'sass/source';
 
-.mainHeaderBack{
+.mainHeaderBack , .stickyHeaderParent{
     background-color: transparent;
     padding: 10px 0px;
     .mainHeader{
@@ -43,6 +43,20 @@
             }
         }
     }
+}
+.stickyHeaderParent{
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -100px;
+    transition: all 0.4s;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.showStickyHeader{
+    top: 0;
 }
 .sectionSix{
     .packagesWebsiteSecParent{
@@ -130,6 +144,61 @@
             }
             .price , .priceSuffix>span{
                 color: #4c7a4e;
+            }
+        }
+    }
+}
+.sectionNine{
+    .commentsSecParent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .commentsSecGeneral{
+            width: 31%;
+            position: relative;
+            .iconSvgBack{
+                position: absolute;
+                right: 45px;
+                top: -20px;
+            }
+            .iamgeUsers{
+                width: max-content;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+                top: -60px;
+                img{
+                    object-fit: cover;
+                    border-radius: 50%;
+                    width: 120px;
+                    height: 120px;
+                    display: block;
+                }
+            }
+            .commentsContent{
+                padding: 60px 30px 30px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 15px;
+                p{
+                    margin: 0;
+                }
+                .nameUsers{
+                    font-size: 17px;
+                    color: $textColorDarker;
+                    font-weight: 600;
+                }
+                .postionUsers{
+                    font-size: 13px;
+                    color: $textColorLighter;
+                }
+                .commentUsers{
+                    margin-top: 30px;
+                    color: $textColorDark;
+                    text-align: justify;
+                }
             }
         }
     }
